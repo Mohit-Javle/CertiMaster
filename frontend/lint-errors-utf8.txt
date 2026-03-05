@@ -1,0 +1,18 @@
+﻿
+D:\CertiMaster\frontend\src\pages\Auth\Login.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Auth\Register.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Editor\Editor.jsx
+  1:28  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Settings\MyCertificates.jsx
+  74:50  error  Parsing error: Expecting Unicode escape sequence \uXXXX
+
+D:\CertiMaster\frontend\src\pages\Templates\TemplatesGallery.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 5 problems (5 errors, 0 warnings)
+

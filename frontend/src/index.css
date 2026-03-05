@@ -1,0 +1,133 @@
+﻿@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-slate-950: #020617;
+
+  --color-amber-50: #fffbeb;
+  --color-amber-100: #fef3c7;
+  --color-amber-200: #fde68a;
+  --color-amber-300: #fcd34d;
+  --color-amber-400: #fbbf24;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+  --color-amber-800: #92400e;
+  --color-amber-900: #78350f;
+  --color-amber-950: #451a03;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full border-2 border-transparent bg-clip-content;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-amber-400;
+}
+
+/* Smooth selection */
+::selection {
+  @apply bg-amber-100 text-amber-900;
+}
+
+/* Premium Glass Utilities */
+@utility glass-premium {
+  @apply bg-white/40 backdrop-blur-xl border border-white/50;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+@utility text-gradient-amber {
+  @apply bg-gradient-to-br from-amber-600 to-orange-500 bg-clip-text text-transparent;
+}
+
+/* Skeuomorphic Enhancements */
+@utility skeuo-raised {
+  box-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.05),
+    -2px -2px 5px rgba(255, 255, 255, 0.8),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+@utility skeuo-pressed {
+  box-shadow:
+    inset 2px 2px 5px rgba(0, 0, 0, 0.05),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+@utility skeuo-button {
+  @apply transition-all duration-200 active:scale-95;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.5));
+  box-shadow:
+    3px 3px 6px rgba(0, 0, 0, 0.08),
+    -3px -3px 6px rgba(255, 255, 255, 0.9),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+
+  &:hover {
+    box-shadow:
+      4px 4px 10px rgba(0, 0, 0, 0.1),
+      -4px -4px 10px rgba(255, 255, 255, 1),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  }
+
+  &:active {
+    box-shadow:
+      inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+      inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+  }
+}
+
+@utility skeuo-input {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow:
+    inset 2px 2px 5px rgba(0, 0, 0, 0.03),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+@utility skeuo-card-premium {
+  @apply glass-premium;
+  box-shadow:
+    10px 10px 30px rgba(0, 0, 0, 0.03),
+    -10px -10px 30px rgba(255, 255, 255, 0.8),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+}

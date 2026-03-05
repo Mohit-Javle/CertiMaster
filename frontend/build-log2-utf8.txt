@@ -1,0 +1,64 @@
+﻿
+> frontend@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 39 modules transformed.
+node.exe : 
+[31mΓ£ù[39m Build 
+failed in 880ms
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ([31mΓ£   
+ ù[39m Build fai    
+led in 880ms:Str    
+ing) [], RemoteE    
+xception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+[31merror during 
+build:
+[31mCould not 
+resolve "../../compon
+ents/ui/Button" from 
+"src/pages/Landing.js
+x"[31m
+file: [36mD:/CertiMa
+ster/frontend/src/pag
+es/Landing.jsx[31m
+    at 
+getRollupError (file:
+///D:/CertiMaster/fro
+ntend/node_modules/ro
+llup/dist/es/shared/p
+arseAst.js:402:41)
+    at error (file://
+/D:/CertiMaster/front
+end/node_modules/roll
+up/dist/es/shared/par
+seAst.js:398:42)
+    at ModuleLoader.h
+andleInvalidResolvedI
+d (file:///D:/CertiMa
+ster/frontend/node_mo
+dules/rollup/dist/es/
+shared/node-entry.js:
+21710:24)
+    at file:///D:/Cer
+tiMaster/frontend/nod
+e_modules/rollup/dist
+/es/shared/node-entry
+.js:21670:26[39m

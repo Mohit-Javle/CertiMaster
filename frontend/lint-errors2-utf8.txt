@@ -1,0 +1,25 @@
+﻿
+D:\CertiMaster\frontend\src\components\layout\Sidebar.jsx
+  1:10  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\components\ui\Toast.jsx
+  1:21  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u    no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Auth\Register.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Dashboard\Dashboard.jsx
+  84:73  error  Parsing error: Expecting Unicode escape sequence \uXXXX
+
+D:\CertiMaster\frontend\src\pages\Landing.jsx
+  1:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Settings\MyCertificates.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\CertiMaster\frontend\src\pages\Templates\TemplatesGallery.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 8 problems (8 errors, 0 warnings)
+
