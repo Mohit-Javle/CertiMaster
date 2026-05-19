@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 // Routes
 const authRoutes = require('./routes/auth');
 const certificateRoutes = require('./routes/certificates');
+const aiRoutes = require('./routes/ai');
 
 dotenv.config();
 
@@ -17,6 +18,7 @@ app.use(express.json());
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/certificates', certificateRoutes);
+app.use('/api/ai', aiRoutes);
 
 // Database Connection
 mongoose.connect(process.env.MONGO_URI).then(() => {
